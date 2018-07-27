@@ -29,6 +29,7 @@ app.listen(3000, () => {
 	console.log('Started on port 3000');
 });
 
+module.exports = {app};
 // const mongoose = require('mongoose');
 
 // // to tell mongoose that we are using built in promise and not third party
